@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyIamport (4.2.3)
+
+DEPENDENCIES:
+  - SwiftyIamport (~> 4.2.3)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyIamport
+
+SPEC CHECKSUMS:
+  SwiftyIamport: 314bb98782081b063dd09498d70ec2a55daa7029
+
+PODFILE CHECKSUM: 068c51df5fe4e116769acd8e289f0b52703a3292
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6879D324746F784B17CD7C6BF6DE74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2B77950BF5BA3182C5AEF099743357B9 /* IAMPortPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F771752AB12855F75E37170835AB3E2 /* IAMPortPay.swift */; };
+		41D5F37EF856976BC4A38B3C873679B5 /* Pods-supaja-bazaar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB656DA70E5D6B3E6D82ADFC7CB567 /* Pods-supaja-bazaar-dummy.m */; };
+		4BC54403F1525294B6A2DB6548CA8BDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		71DEBBF167245F247928E5E3DAD0CD89 /* SwiftyIamport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39574F565B68654A8EE13038B9470EF /* SwiftyIamport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E3CAFEFC782139D7F27CD77012EADF /* IAMPortPay.html in Resources */ = {isa = PBXBuildFile; fileRef = 989382BB943C1D366A270AA52E952B5F /* IAMPortPay.html */; };
+		BB70A6EB0B72C3FCFDE33E7C8B88E9EE /* Pods-supaja-bazaar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E27F5F0840B82C42A775B5E199314A6C /* Pods-supaja-bazaar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48B2372307432F43680FEC98296CC1D /* SwiftyIamport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E2B3B29B0E816922EB3A5A94881393 /* SwiftyIamport-dummy.m */; };
+		FB595C41C5EB63712F85C03213DB322F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6E304384D46C92E25639332BFF6EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099EB6BAB190198FF973393429842D88;
+			remoteInfo = SwiftyIamport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3C5DB8032D383B7843E72827507B34 /* Pods-supaja-bazaar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-supaja-bazaar.modulemap"; sourceTree = "<group>"; };
+		27E2B3B29B0E816922EB3A5A94881393 /* SwiftyIamport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyIamport-dummy.m"; sourceTree = "<group>"; };
+		3CF8F51016B43B68535513F0D65125A3 /* Pods-supaja-bazaar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-supaja-bazaar.debug.xcconfig"; sourceTree = "<group>"; };
+		4F88538E16CCBE1890F7D336C9476097 /* SwiftyIamport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyIamport; path = SwiftyIamport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CD2F85CB8225C066C367A7AD79F500 /* SwiftyIamport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyIamport.modulemap; sourceTree = "<group>"; };
+		6B4E933E4DE247C88B170741DBE3BA61 /* Pods-supaja-bazaar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-supaja-bazaar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CB3CF4E7BF50CB60A10BA61E04BCFBC /* Pods-supaja-bazaar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-supaja-bazaar"; path = Pods_supaja_bazaar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824C2D8CCB58B572763122B400A93170 /* Pods-supaja-bazaar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-supaja-bazaar.release.xcconfig"; sourceTree = "<group>"; };
+		8F771752AB12855F75E37170835AB3E2 /* IAMPortPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAMPortPay.swift; path = SwiftyIamport/Source/IAMPortPay.swift; sourceTree = "<group>"; };
+		989382BB943C1D366A270AA52E952B5F /* IAMPortPay.html */ = {isa = PBXFileReference; includeInIndex = 1; name = IAMPortPay.html; path = SwiftyIamport/Resource/IAMPortPay.html; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBB5CF678BD2C5E2C07D2E89BC227CD /* Pods-supaja-bazaar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-supaja-bazaar-Info.plist"; sourceTree = "<group>"; };
+		B1C208BAA857D1A53B6396DA7F44EB0C /* SwiftyIamport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyIamport.debug.xcconfig; sourceTree = "<group>"; };
+		B39574F565B68654A8EE13038B9470EF /* SwiftyIamport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyIamport-umbrella.h"; sourceTree = "<group>"; };
+		BE9700050CB8EF6B5E308F107EC082CA /* SwiftyIamport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyIamport.release.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D76B145BB52FA65861D90C00A19D540D /* Pods-supaja-bazaar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-supaja-bazaar-frameworks.sh"; sourceTree = "<group>"; };
+		E27F5F0840B82C42A775B5E199314A6C /* Pods-supaja-bazaar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-supaja-bazaar-umbrella.h"; sourceTree = "<group>"; };
+		E6FB656DA70E5D6B3E6D82ADFC7CB567 /* Pods-supaja-bazaar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-supaja-bazaar-dummy.m"; sourceTree = "<group>"; };
+		E82558BD8F3337C41680C98CD35F1E4E /* SwiftyIamport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyIamport-prefix.pch"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F141C00D3C950BE55EAD46D999513C6A /* Pods-supaja-bazaar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-supaja-bazaar-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD50B99560E825C6B85FD6D823BDDB33 /* SwiftyIamport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyIamport-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C08DEE08E749099A85D78D5860F35481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6879D324746F784B17CD7C6BF6DE74 /* Foundation.framework in Frameworks */,
+				4BC54403F1525294B6A2DB6548CA8BDC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9D07D9E794A5D5D9F960B571DA05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB595C41C5EB63712F85C03213DB322F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FED6EB55F2BE1B90D73D1FC77269BEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CD2F85CB8225C066C367A7AD79F500 /* SwiftyIamport.modulemap */,
+				27E2B3B29B0E816922EB3A5A94881393 /* SwiftyIamport-dummy.m */,
+				FD50B99560E825C6B85FD6D823BDDB33 /* SwiftyIamport-Info.plist */,
+				E82558BD8F3337C41680C98CD35F1E4E /* SwiftyIamport-prefix.pch */,
+				B39574F565B68654A8EE13038B9470EF /* SwiftyIamport-umbrella.h */,
+				B1C208BAA857D1A53B6396DA7F44EB0C /* SwiftyIamport.debug.xcconfig */,
+				BE9700050CB8EF6B5E308F107EC082CA /* SwiftyIamport.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyIamport";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32BDDDFA6100566B0AFE0C58BAB14EEE /* SwiftyIamport */ = {
+			isa = PBXGroup;
+			children = (
+				8F771752AB12855F75E37170835AB3E2 /* IAMPortPay.swift */,
+				BE6D7F07B2D138978E639F886B8467E7 /* Resources */,
+				0FED6EB55F2BE1B90D73D1FC77269BEE /* Support Files */,
+			);
+			name = SwiftyIamport;
+			path = SwiftyIamport;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CCF9ADA5657BE774547D66B0B75127B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C62C840CF00DF24B69BEDC14388C5570 /* Pods-supaja-bazaar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92622F04556BDF06C37201348828E3E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3CF4E7BF50CB60A10BA61E04BCFBC /* Pods-supaja-bazaar */,
+				4F88538E16CCBE1890F7D336C9476097 /* SwiftyIamport */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60951A9CD9843D8359C075C2CDD5B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32BDDDFA6100566B0AFE0C58BAB14EEE /* SwiftyIamport */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE6D7F07B2D138978E639F886B8467E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				989382BB943C1D366A270AA52E952B5F /* IAMPortPay.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C62C840CF00DF24B69BEDC14388C5570 /* Pods-supaja-bazaar */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C5DB8032D383B7843E72827507B34 /* Pods-supaja-bazaar.modulemap */,
+				6B4E933E4DE247C88B170741DBE3BA61 /* Pods-supaja-bazaar-acknowledgements.markdown */,
+				F141C00D3C950BE55EAD46D999513C6A /* Pods-supaja-bazaar-acknowledgements.plist */,
+				E6FB656DA70E5D6B3E6D82ADFC7CB567 /* Pods-supaja-bazaar-dummy.m */,
+				D76B145BB52FA65861D90C00A19D540D /* Pods-supaja-bazaar-frameworks.sh */,
+				9EBB5CF678BD2C5E2C07D2E89BC227CD /* Pods-supaja-bazaar-Info.plist */,
+				E27F5F0840B82C42A775B5E199314A6C /* Pods-supaja-bazaar-umbrella.h */,
+				3CF8F51016B43B68535513F0D65125A3 /* Pods-supaja-bazaar.debug.xcconfig */,
+				824C2D8CCB58B572763122B400A93170 /* Pods-supaja-bazaar.release.xcconfig */,
+			);
+			name = "Pods-supaja-bazaar";
+			path = "Target Support Files/Pods-supaja-bazaar";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B60951A9CD9843D8359C075C2CDD5B96 /* Pods */,
+				92622F04556BDF06C37201348828E3E9 /* Products */,
+				7CCF9ADA5657BE774547D66B0B75127B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F5E6EC3919EE20DC339FE8733616260 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB70A6EB0B72C3FCFDE33E7C8B88E9EE /* Pods-supaja-bazaar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C83FFF3BD1605D2D69CBF6C7A31219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DEBBF167245F247928E5E3DAD0CD89 /* SwiftyIamport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		099EB6BAB190198FF973393429842D88 /* SwiftyIamport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC4B520333BEDA46EF46BC59DB5E87F /* Build configuration list for PBXNativeTarget "SwiftyIamport" */;
+			buildPhases = (
+				81C83FFF3BD1605D2D69CBF6C7A31219 /* Headers */,
+				9FABCEA0C35088A210B64F9D8E020307 /* Sources */,
+				C08DEE08E749099A85D78D5860F35481 /* Frameworks */,
+				7B4EE4498C3EB7969ACB2FB130F2744E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyIamport;
+			productName = SwiftyIamport;
+			productReference = 4F88538E16CCBE1890F7D336C9476097 /* SwiftyIamport */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF624B2F4604BC7EE7DEE3220B3A1354 /* Pods-supaja-bazaar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE7469A2ED0DA30F5ED02C892ABFFAD /* Build configuration list for PBXNativeTarget "Pods-supaja-bazaar" */;
+			buildPhases = (
+				5F5E6EC3919EE20DC339FE8733616260 /* Headers */,
+				FB45A177D39932BB5A33829D3C031A59 /* Sources */,
+				FA9D07D9E794A5D5D9F960B571DA05A2 /* Frameworks */,
+				19BA79020C59604BF90C2EF8A4279BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87B1917D68CD72DBD6647EC5053DADF /* PBXTargetDependency */,
+			);
+			name = "Pods-supaja-bazaar";
+			productName = Pods_supaja_bazaar;
+			productReference = 6CB3CF4E7BF50CB60A10BA61E04BCFBC /* Pods-supaja-bazaar */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 92622F04556BDF06C37201348828E3E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF624B2F4604BC7EE7DEE3220B3A1354 /* Pods-supaja-bazaar */,
+				099EB6BAB190198FF973393429842D88 /* SwiftyIamport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19BA79020C59604BF90C2EF8A4279BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4EE4498C3EB7969ACB2FB130F2744E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E3CAFEFC782139D7F27CD77012EADF /* IAMPortPay.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FABCEA0C35088A210B64F9D8E020307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B77950BF5BA3182C5AEF099743357B9 /* IAMPortPay.swift in Sources */,
+				D48B2372307432F43680FEC98296CC1D /* SwiftyIamport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB45A177D39932BB5A33829D3C031A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D5F37EF856976BC4A38B3C873679B5 /* Pods-supaja-bazaar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D87B1917D68CD72DBD6647EC5053DADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyIamport;
+			target = 099EB6BAB190198FF973393429842D88 /* SwiftyIamport */;
+			targetProxy = 0E6E304384D46C92E25639332BFF6EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C40D9E9F05B8A86FABF52B3AA9F248F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF8F51016B43B68535513F0D65125A3 /* Pods-supaja-bazaar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-supaja-bazaar/Pods-supaja-bazaar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-supaja-bazaar/Pods-supaja-bazaar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FE0B501471BEB8449F9ECE7A0BB5653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C208BAA857D1A53B6396DA7F44EB0C /* SwiftyIamport.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyIamport/SwiftyIamport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyIamport/SwiftyIamport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyIamport/SwiftyIamport.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyIamport;
+				PRODUCT_NAME = SwiftyIamport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F8CF69FFA77D149DB31DA0D261C10EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824C2D8CCB58B572763122B400A93170 /* Pods-supaja-bazaar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-supaja-bazaar/Pods-supaja-bazaar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-supaja-bazaar/Pods-supaja-bazaar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5958B7A49890EFC405D4B143386FF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9700050CB8EF6B5E308F107EC082CA /* SwiftyIamport.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyIamport/SwiftyIamport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyIamport/SwiftyIamport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyIamport/SwiftyIamport.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyIamport;
+				PRODUCT_NAME = SwiftyIamport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE7469A2ED0DA30F5ED02C892ABFFAD /* Build configuration list for PBXNativeTarget "Pods-supaja-bazaar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C40D9E9F05B8A86FABF52B3AA9F248F /* Debug */,
+				9F8CF69FFA77D149DB31DA0D261C10EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC4B520333BEDA46EF46BC59DB5E87F /* Build configuration list for PBXNativeTarget "SwiftyIamport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE0B501471BEB8449F9ECE7A0BB5653 /* Debug */,
+				E5958B7A49890EFC405D4B143386FF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

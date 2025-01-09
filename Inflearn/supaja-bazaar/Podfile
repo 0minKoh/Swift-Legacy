@@ -1,0 +1,9 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+target 'supaja-bazaar' do
+  use_frameworks!
+  
+pod 'SwiftyIamport', '~> 4.2.3'
+
+end
