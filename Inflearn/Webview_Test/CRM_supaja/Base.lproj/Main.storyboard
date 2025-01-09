@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DNH-96-4ej">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--학생-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CRM_supaja" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGf-qH-t2e">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FGf-qH-t2e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DmH-9R-nr9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FGf-qH-t2e" secondAttribute="trailing" id="hFr-YQ-84h"/>
+                            <constraint firstItem="FGf-qH-t2e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="n80-yw-vCT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FGf-qH-t2e" secondAttribute="bottom" id="opv-q7-hDY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="학생" image="person" catalog="system" selectedImage="person.fill" id="x1o-Bc-TR6"/>
+                    <connections>
+                        <outlet property="WebViewMain" destination="FGf-qH-t2e" id="DsH-6g-rfw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="-420"/>
+        </scene>
+        <!--선생님-->
+        <scene sceneID="ZWr-zu-Hez">
+            <objects>
+                <viewController id="IuI-D3-j5k" customClass="TeacherViewController" customModule="CRM_supaja" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="66m-4s-meA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3y-TH-Uot">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T6m-sr-XEL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="T6m-sr-XEL" firstAttribute="bottom" secondItem="d3y-TH-Uot" secondAttribute="bottom" id="6o0-e1-vn6"/>
+                            <constraint firstItem="d3y-TH-Uot" firstAttribute="top" secondItem="T6m-sr-XEL" secondAttribute="top" id="FOd-XK-OYW"/>
+                            <constraint firstItem="T6m-sr-XEL" firstAttribute="trailing" secondItem="d3y-TH-Uot" secondAttribute="trailing" id="dOk-XF-8zO"/>
+                            <constraint firstItem="d3y-TH-Uot" firstAttribute="leading" secondItem="T6m-sr-XEL" secondAttribute="leading" id="qVe-Kh-hjg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="선생님" image="graduationcap" catalog="system" selectedImage="graduationcap.fill" id="ptO-G3-ymj"/>
+                    <connections>
+                        <outlet property="WebViewTeacher" destination="d3y-TH-Uot" id="4go-dt-ACP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K05-UG-uh8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="321"/>
+        </scene>
+        <!--Live-->
+        <scene sceneID="LlR-HK-3kB">
+            <objects>
+                <viewController id="z7F-bz-3ys" customClass="LiveViewController" customModule="CRM_supaja" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vuu-jl-efC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfH-fB-rnb">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="393-mt-8S0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tfH-fB-rnb" firstAttribute="top" secondItem="393-mt-8S0" secondAttribute="top" id="6LD-Qp-gXV"/>
+                            <constraint firstItem="393-mt-8S0" firstAttribute="trailing" secondItem="tfH-fB-rnb" secondAttribute="trailing" id="jwb-Ei-viI"/>
+                            <constraint firstItem="tfH-fB-rnb" firstAttribute="leading" secondItem="393-mt-8S0" secondAttribute="leading" id="vD6-gG-fcl"/>
+                            <constraint firstItem="393-mt-8S0" firstAttribute="bottom" secondItem="tfH-fB-rnb" secondAttribute="bottom" id="zh5-au-Nqd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Live" image="play.circle" catalog="system" selectedImage="play.circle.fill" id="LbZ-Y6-BID"/>
+                    <connections>
+                        <outlet property="WebViewLive" destination="tfH-fB-rnb" id="h57-F1-15o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Xs-XG-xDK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="1114"/>
+        </scene>
+        <!--체험수업-->
+        <scene sceneID="ttg-r2-gnf">
+            <objects>
+                <viewController id="g3u-Ac-1WS" customClass="ClassViewController" customModule="CRM_supaja" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r7A-3d-mLU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X76-2I-Cmp">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1NM-Vt-SOF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X76-2I-Cmp" firstAttribute="leading" secondItem="1NM-Vt-SOF" secondAttribute="leading" id="54o-5U-hOf"/>
+                            <constraint firstItem="X76-2I-Cmp" firstAttribute="top" secondItem="1NM-Vt-SOF" secondAttribute="top" id="MIp-6x-Oz7"/>
+                            <constraint firstItem="1NM-Vt-SOF" firstAttribute="bottom" secondItem="X76-2I-Cmp" secondAttribute="bottom" id="iZn-TG-BoP"/>
+                            <constraint firstItem="1NM-Vt-SOF" firstAttribute="trailing" secondItem="X76-2I-Cmp" secondAttribute="trailing" id="lFh-bU-C5x"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="체험수업" image="cart" catalog="system" selectedImage="cart.fill" id="AdC-Zg-LH9"/>
+                    <connections>
+                        <outlet property="WebViewClass" destination="X76-2I-Cmp" id="Xh5-aT-jiQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOX-Gf-N0d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="1841"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="BCs-yj-UAy">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DNH-96-4ej" customClass="CustomTabBarController" customModule="CRM_supaja" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rc4-re-kx2">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="6DR-7d-ncE"/>
+                        <segue destination="IuI-D3-j5k" kind="relationship" relationship="viewControllers" id="LaW-1u-5GG"/>
+                        <segue destination="z7F-bz-3ys" kind="relationship" relationship="viewControllers" id="yfn-TA-F8l"/>
+                        <segue destination="g3u-Ac-1WS" kind="relationship" relationship="viewControllers" id="ByG-NW-BIs"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWx-PJ-Z6r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106" y="320"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="graduationcap" catalog="system" width="128" height="107"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="play.circle" catalog="system" width="128" height="123"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
